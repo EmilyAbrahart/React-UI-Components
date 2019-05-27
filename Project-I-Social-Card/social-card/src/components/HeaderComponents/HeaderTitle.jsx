@@ -12,6 +12,4 @@ function HeaderTitle({ name, handle, date }) {
   );
 }
 
-// const headerTitle = <HeaderTitle name="Lambda School" handle="@lambdaschool" />;
-
 export default HeaderTitle;

@@ -6,10 +6,4 @@ function ImageThumbnail({ source, alt }) {
   return <img src={source} alt={alt} />;
 }
 
-// const imageThumbnail = (
-//   <ImageThumbnail
-//     source=" https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png"
-//     alt="Lambda School"
-//   />
-// );
 export default ImageThumbnail;
