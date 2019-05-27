@@ -3,7 +3,7 @@ import React from 'react';
 import './Header.css';
 
 function ImageThumbnail({ source, alt }) {
-  return <img src={source} alt={alt} />;
+  return <img className="headerImg" src={source} alt={alt} />;
 }
 
 export default ImageThumbnail;

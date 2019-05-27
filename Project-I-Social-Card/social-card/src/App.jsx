@@ -4,9 +4,9 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => (
-  <div>
+  <div className="appDiv">
     <HeaderContainer />
-    <CardContainer />
+    <CardContainer link ="https://www.reactjs.org"/>
   </div>
 
 
