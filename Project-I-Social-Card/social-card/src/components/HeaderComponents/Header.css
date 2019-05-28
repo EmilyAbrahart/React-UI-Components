@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+/* Header Content */
+.headerContainer {
+  display: flex;
+
+}
+
+.headerTextContent {
+  margin-left: 0.5rem;
+}
+
+.headerTitle {
+  display: flex;
+}
+
+.name {
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.handle, .date {
+  color: grey;
+  padding-right: 1rem;
+}
+
+.headerImg {
+  width: 70px;
+  height: 70px;
+}
