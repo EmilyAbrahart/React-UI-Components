@@ -2,4 +2,57 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 100px auto;
+  width: 380px;
+  background-color: black;
+  
+}
+.calcDisplay{
+height: 5rem;
+color: white;
+text-align: right;
+font-size: 4rem;
+padding: 1rem;
+border: 1px solid grey;
+}
+
+button {
+  font-size: 2.5rem;
+  width: 95px;
+  height: 95px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid grey;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.keypadButtons{
+  width: 285px;
+}
+
+.keypadNumButtons {
+ 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.operatorButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.opButton {
+  color: white;
+}
+
+.clearButton, .zeroButton {
+  width: 285px;
 }
