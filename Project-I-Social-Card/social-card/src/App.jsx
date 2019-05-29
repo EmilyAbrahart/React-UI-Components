@@ -6,7 +6,7 @@ import CardContainer from './components/CardComponents/CardContainer';
 const App = () => (
   <div className="appDiv">
     <HeaderContainer />
-    <CardContainer link ="https://www.reactjs.org"/>
+    <CardContainer link="https://www.reactjs.org" />
   </div>
 
 
